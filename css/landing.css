@@ -369,12 +369,14 @@
         justify-content: center;
     }
     
+    /* Text comes first, then image below */
     .hero__visual {
         order: -1;
+        margin-top: var(--spacing-xl);
     }
     
     .hero__image {
-        max-width: 300px;
+        max-width: 200px;
     }
 }
 

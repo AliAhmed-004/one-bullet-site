@@ -103,12 +103,15 @@
 /* -------------------------
    Responsive Grid Breakpoints
    ------------------------- */
+   
+/* Desktop */
 @media (max-width: 1024px) {
     .grid-4 {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
+/* Tablet */
 @media (max-width: 768px) {
     .grid-2,
     .grid-3,
@@ -125,8 +128,9 @@
     }
 }
 
+/* Mobile */
 @media (max-width: 480px) {
     .grid-auto-fit {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
 }
